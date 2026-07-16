@@ -1,0 +1,231 @@
+[
+    {
+        "Id": "c3f6cc644baaadeda8500c8316dcc45d21c72749ff3ff16cde24d9571ad2e816",
+        "Created": "2026-07-15T15:28:32.903861312Z",
+        "Path": "/app/docker-entrypoint.sh",
+        "Args": [],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 765,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-07-15T15:28:33.006816615Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:d68053f55275cbdbe9d265e41052fbfda401c301145169d7a91d0d24de8dc9ef",
+        "ResolvConfPath": "/var/lib/docker/containers/c3f6cc644baaadeda8500c8316dcc45d21c72749ff3ff16cde24d9571ad2e816/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/c3f6cc644baaadeda8500c8316dcc45d21c72749ff3ff16cde24d9571ad2e816/hostname",
+        "HostsPath": "/var/lib/docker/containers/c3f6cc644baaadeda8500c8316dcc45d21c72749ff3ff16cde24d9571ad2e816/hosts",
+        "LogPath": "/var/lib/docker/containers/c3f6cc644baaadeda8500c8316dcc45d21c72749ff3ff16cde24d9571ad2e816/c3f6cc644baaadeda8500c8316dcc45d21c72749ff3ff16cde24d9571ad2e816-json.log",
+        "Name": "/ruview",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": [
+            "5a556d28db0625cdc7fc7761004835a0e43364c57b078abb13e169bf2f80d984"
+        ],
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "bridge",
+            "PortBindings": {
+                "3000/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "3000"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                30,
+                120
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "c3f6cc644baa",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "1883/tcp": {},
+                "3000/tcp": {},
+                "3001/tcp": {},
+                "5005/udp": {},
+                "8123/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "RUVIEW_BIND_ADDR=127.0.0.1",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "RUVIEW_API_TOKEN=",
+                "RUST_LOG=info",
+                "CSI_SOURCE=auto",
+                "MODELS_DIR=data/models"
+            ],
+            "Cmd": null,
+            "Image": "ruvnet/wifi-densepose:latest",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": [
+                "/app/docker-entrypoint.sh"
+            ],
+            "Labels": {
+                "org.opencontainers.image.created": "2026-07-14T17:32:52.885Z",
+                "org.opencontainers.image.description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+                "org.opencontainers.image.licenses": "MIT",
+                "org.opencontainers.image.revision": "82c1b8fdf81f3dd8b786f394dd9bbd3914921fa1",
+                "org.opencontainers.image.source": "https://github.com/ruvnet/RuView",
+                "org.opencontainers.image.title": "RuView",
+                "org.opencontainers.image.url": "https://github.com/ruvnet/RuView",
+                "org.opencontainers.image.version": "main"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "f303c4faf9d960dce5758472c3198f4a53a2b896a59f0d621ff9569cde7967ca",
+            "SandboxKey": "/var/run/docker/netns/f303c4faf9d9",
+            "Ports": {
+                "3000/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "3000"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "3000"
+                    }
+                ]
+            },
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "6993bf5851e89dc979fc7fcd5638f21b472a42d5c9bf24f2c91620cc1df89b4b",
+                    "EndpointID": "f0e11deb42c36bc34aed1b2c4616faab6929e912dbb612e3f80fcf5dc15b4296",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.2",
+                    "MacAddress": "b2:b2:1f:c6:2e:69",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": null
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:f89e43a6a27c67749c0841fba2cc7b1971ebc6f0506972f136c5108ea1802131",
+            "size": 2005,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]
